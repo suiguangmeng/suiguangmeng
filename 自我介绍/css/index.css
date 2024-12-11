@@ -1,0 +1,85 @@
+*{
+    font-family: 'kaiti';
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: rgb(226, 248, 226);
+}
+a{
+    color: #333;
+    text-decoration: none;
+} 
+.header{
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+.nav-box{
+    /* max-width: 1200px; */
+    height: 40px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #333;
+}
+.nav{
+    display: flex;
+    font-size: 25px;
+    margin: 30px;
+}
+.nav li{
+    padding-left: 30px;;
+}
+.nav a.on,
+.nav a:hover{
+    color: cadetblue;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.banner{
+    /* width: 1200px; */
+    margin: 0 auto;
+    background: url(../img/jingyun.png) no-repeat center center;
+    height: 312px;
+    text-align: center;
+    line-height: 321px;
+    color: rgb(246, 153, 204);
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(10, 14, 15, 0.3);
+}
+.introduce{
+    /* width: 1200px; */
+    margin: 0px auto;
+    padding: 20px 0;
+    padding-left: 10px;
+}
+.in-tit{
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.in-main{
+    display: flex;
+}
+.introduce .tx{
+    margin-right: 60px;
+}
+.introduce img{
+    border-radius: 50%;
+}
+.content{
+    line-height: 41px;
+    font-size: 25px;
+    color: black;
+}
